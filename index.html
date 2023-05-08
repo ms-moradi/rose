@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Rose</title>
+    <link  rel="stylesheet" href="style/main.css">
+    <link href="style/all.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div  class="container-header">
+            <header class="header">
+                <div class="header-site">
+                    <div class="logo">
+                        <a href="#" id="header">Rose van der Ende</a>
+                    </div>
+                    <div class="openBtn"  onclick="openNav()">
+                        <a href="#"><i class="fa-solid fa-bars  i-style-openBtn"></i></a>
+                    </div>
+                </div>
+            </header>
+            <nav id="nav" class="navbar">
+                <div>
+                    <div  class="closeBtn" onclick="closeNav()">
+                        <a href="#"><i class="fa-solid fa-xmark"></i></a>
+                    </div>
+                    <ul>
+                        <li><a class="text-big" href="#">Work</a></li>
+                        <li><a href="#">Kleur & Theorie - Book Design</a></li>
+                        <li><a href="#">Logos & Marks - Logofolio</a></li>
+                        <li><a href="#">The Merry Moore - Branding</a></li>
+                        <li><a href="#">Aliza Levi Interiors - Branding</a></li>
+                        <li><a href="#">Masterly - The Dutch in Milano</a></li>
+                        <li><a href="#">Louie Coffee - Branding</a></li>
+                        <li><a href="#">Dogwood - Branding</a></li>
+                        <li><a href="#">Loavies Newsletter Design</a></li>
+                        <li><a class="text-big" href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="nav-footer">
+                    <ul  class="icon">
+                        <li><i class="fa-brands fa-behance  i-style-navFooter"></i></li>
+                        <li><i class="fab fa-linkedin-in  i-style-navFooter"></i></li>
+                        <li><i class="fa-brands fa-instagram  i-style-navFooter"></i></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <div class="container-main">
+            <main class="main">
+                <div class="main-text">
+                    <p class="text"> My name is Rose van der Ende and
+                        I'm a passionate graphic designer.
+                        Within my designs I value simplicity,
+                        symmetry and detail. Whether I'm
+                        designing books, branding, 
+                        packaging or websites I always 
+                        strive for beauty and balance.
+                    </p>
+                    <p class="comment">Scroll down to see my work</p>
+                </div>
+                <div class="main-image">
+                    <img src="image/bf7fd9d2-ed5a-4945-8031-67ebeddb0797_carw_16x9x1280.jpg" alt="">
+                    <img src="image/ec79be95-c7b8-434f-a2e1-1b48536d1cdd_carw_16x9x1280.jpg" alt="">
+                    <img src="image/d00389ac-8736-463d-bdd3-3c811bcf1d7c_carw_16x9x1280.jpg" alt="">
+                    <img src="image/91df72f5-c5aa-41aa-be70-64aa2676f4f7_rwc_0x66x1858x1047x1280.jpg" alt="">
+                    <img src="image/21d2e9e2-453a-4f74-954c-bdfd10e8a212_rwc_0x264x1920x1082x1280.jpg" alt="">
+                    <img src="image/87da6888-3278-4b28-a690-f371e94845a3_rwc_0x132x1920x1082x1280.jpg" alt="">
+                    <img src="image/c54494b7-098c-4a5f-b606-82ea08dbd758_rwc_0x112x1920x1082x1280.jpg" alt="">
+                    <img src="image/db36703f-64fd-4b0f-a9df-7b77e8b4d873_rwc_0x142x1920x1082x1280.jpg" alt="">
+                </div>
+            </main>
+            <footer class="footer">
+                <ul class="icon">
+                    <li><i class="fa-brands fa-behance   i-style-footer"></i></li>
+                    <li><i class="fab fa-linkedin-in  i-style-footer"></i></li>
+                    <li><i class="fa-brands fa-instagram  i-style-footer"></i></li>
+                </ul>
+                <p>Powered by Adobe Portfolio</p>
+            </footer>
+        </div>
+        <a href="#header" class="upBtn" ><i class="fa-solid fa-arrow-up  i-style-upBtn"></i></a>
+    </div>
+    <script>
+        function openNav(){
+            document.getElementById("nav").style.display="block" ;
+            document.getElementById("nav").style.height="100%";
+        }
+
+        function closeNav(){
+            document.getElementById("nav").style.display="none";
+            document.getElementById("nav").style.height="0%";
+        }
+    </script>
+</body>
+</html>
